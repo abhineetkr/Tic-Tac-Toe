@@ -1,0 +1,74 @@
+    /* CSS Code */
+    body {
+      background-color: rgb(32, 32, 32);
+    }
+
+    /* 3*3 Grid */
+    #b1,
+    #b2,
+    #b3,
+    #b4,
+    #b5,
+    #b6,
+    #b7,
+    #b8,
+    #b9 {
+      width: 80px;
+      height: 52px;
+      margin: auto;
+      border: 1px solid gray;
+      border-radius: 6px;
+      font-size: 30px;
+      text-align: center;
+      background-color: #FFF8DC;
+      cursor: pointer;
+    }
+
+    /* Main Container */
+    #main {
+      text-align: center;
+    }
+
+    /* Heading */
+    #head1 {
+      font-family: Georgia;
+      color: #FFD700;
+      font-size: 20px;
+    }
+
+    /* Main Heading */
+    #head2 {
+      font-family: Copperplate, Papyrus, fantasy;
+      color: red;
+      font-size: 45px;
+      margin: 0 auto;
+    }
+
+    /* Game Instruction Text */
+    #ins {
+      font-family: 'Time New Roman', serif;
+      color: #FFD700;
+      font-size: 17px;
+    }
+
+    /* Reset Button */
+    #but {
+      box-sizing: border-box;
+      width: 95px;
+      height: 40px;
+      border: 1px solid #FFD700;
+      margin: auto;
+      border-radius: 4px;
+      font-family: Verdana, geneva, Tahoma, sans-serif;
+      background-color: red;
+      color: white;
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    /* Player turn space */
+    #print {
+      font-family: Verdana, geneva, Tahoma, sans-serif;
+      color: dodgerblue;
+      font-size: 20px;
+    }
